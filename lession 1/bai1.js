@@ -1,10 +1,10 @@
 //sort 1 mang cac so co san
 
 //cach 1 dung ham sort() cua js
-const arr = [1, 2, 4, 3];
-arr.sort();
+const arr2 = [1, 8, 3, 2, 9, 6];
+arr2.sort();
 
-console.log("sort bang ham sort co san " + arr);
+console.log(arr2);
 
 //cach 2 dung selection sort
 const selectionSort = (array) => {
@@ -22,7 +22,4 @@ const selectionSort = (array) => {
   }
   console.log(array);
 };
-
-arr2 = [1, 8, 3, 2, 9, 6];
-
 selectionSort(arr2);

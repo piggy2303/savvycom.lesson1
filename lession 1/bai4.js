@@ -1,4 +1,4 @@
-
+//giai phuong trinh bac 2
 const slove = (a,b,c) => {
     delta = b*b - 4*a*c;
     if (delta < 0) {

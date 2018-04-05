@@ -7,7 +7,7 @@ arr2.sort();
 console.log(arr2);
 
 //cach 2 dung selection sort
-const selectionSort = (array) => {
+const selectionSort = array => {
   for (i = 0; i < array.length; i++) {
     //set min to the current iteration of i
     var min = i;

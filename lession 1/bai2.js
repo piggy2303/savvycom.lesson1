@@ -32,7 +32,7 @@ const findItem = (n, array = []) => {
 
 const arr2 = [1, 8, 3, 2, 9, 6];
 
-findItem(1, arr2);  // 9
-findItem(3, arr2);  // 6
-findItem(7, arr2);  // err
+findItem(1, arr2); // 9
+findItem(3, arr2); // 6
+findItem(7, arr2); // err
 findItem(-5, arr2); // err

@@ -4,14 +4,14 @@ tra ve vi tri cua
 const arr = [1, 8, 3, 2, 9, 6];
 console.log(arr);
 
-const binarySearch = (array=[], value) => {
-    array.sort();
-    console.log(array);
-    console.log("finding "+value);
-    
-  let start = 0;
-  let stop = array.length - 1;
-  let middle = Math.floor((start + stop) / 2);
+const binarySearch = (array = [], value) => {
+  array.sort();
+  console.log(array);
+  console.log("finding " + value);
+
+  start = 0;
+  stop = array.length - 1;
+  middle = Math.floor((start + stop) / 2);
 
   while (array[middle] !== value && start < stop) {
     if (value < array[middle]) {
@@ -22,10 +22,9 @@ const binarySearch = (array=[], value) => {
     middle = Math.floor((start + stop) / 2);
   }
   if (array[middle] != value) {
-      console.log("not found");
-  }
-  else{
-    console.log("index is "+ (middle+1));
+    console.log("not found");
+  } else {
+    console.log("index is " + (middle + 1));
   }
 };
 
